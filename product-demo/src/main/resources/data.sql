@@ -1,0 +1,10 @@
+INSERT INTO PRODUCT(PRODUCTID, TITLE, DESCRIPTION, BRAND, PRICE, COLOR) VALUES(1,'Apple MacBook Air Core i5 5th Gen','24 inch Full HD LED Backlit Anti-glare Display','Apple','66630','Silver');
+INSERT INTO PRODUCT(PRODUCTID, TITLE, DESCRIPTION, BRAND, PRICE, COLOR) VALUES(2,'HP 14s Core i3 10th Gen','Stylish & Portable Thin and Light Laptop','HP','35990','Black');
+INSERT INTO PRODUCT(PRODUCTID, TITLE, DESCRIPTION, BRAND, PRICE, COLOR) VALUES(3,'Lenovo ThinkPad x390 Core i7 10th Gen','13.3 inch Full HD LED Backlit Anti-glare IPS Display (300 nits Brightness, 72% NTSC Color Gamut)','Lenovo','129803','Grey');
+INSERT INTO PRODUCT(PRODUCTID, TITLE, DESCRIPTION, BRAND, PRICE, COLOR) VALUES(4,'Dell Inspiron Core i5 10th Gen','14 inch Full HD LED Backlit Anti-glare Display','Dell','65990','Blue');
+INSERT INTO PRODUCT(PRODUCTID, TITLE, DESCRIPTION, BRAND, PRICE, COLOR) VALUES(5,'Asus Celeron Dual Core','15.6 inch HD LED Backlit Anti-glare Display (200 nits Brightness, 45% NTSC, 75% Screen-to-body Ratio)','Asus','34000','Silver');
+INSERT INTO PRODUCT(PRODUCTID, TITLE, DESCRIPTION, BRAND, PRICE, COLOR) VALUES(6,'Acer Aspire 7 Ryzen 5 Quad Core 3550H','15.6 inch Full HD LED Backlit IPS ComfyView Display (16:9 Aspect Ratio, 45% NTSC Color Gamut, 250 nits Brightness)','Acer','49990','Black');
+INSERT INTO PRODUCT(PRODUCTID, TITLE, DESCRIPTION, BRAND, PRICE, COLOR) VALUES(7,'iBall CompBook Pentium Quad Core','14 inch Full HD LED Backlit IPS Display','iBall','13990','Grey');
+INSERT INTO PRODUCT(PRODUCTID, TITLE, DESCRIPTION, BRAND, PRICE, COLOR) VALUES(8,'LG Gram 17 Core i7 10th Gen','17 inch HD LCD Backlit IPS Display','LG','99990','BLUE');
+INSERT INTO PRODUCT(PRODUCTID, TITLE, DESCRIPTION, BRAND, PRICE, COLOR) VALUES(9,'Microsoft Surface Pro 7 Core i5 10th Gen','12.3 inch Quad HD LED Backlit PixelSense Display (10 Point Multi-touch, 3:2 Aspect Ratio, 267 ppi)','Micosoft','117990','Black');
+INSERT INTO PRODUCT(PRODUCTID, TITLE, DESCRIPTION, BRAND, PRICE, COLOR) VALUES(10,'Mi Notebook 14 Core i5 10th Gen','14 inch Full HD LED Backlit Anti-glare Display','Mi','46999','Silver');

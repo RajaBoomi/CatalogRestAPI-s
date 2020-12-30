@@ -1,0 +1,68 @@
+# Product Catalaog API Service Spring Reactive Restful APIs
+info:
+  app:
+    name: Catalag Service API
+    description: Product Management Service using Spring Reactive Restful APIs
+    version: 1.0.0
+
+# Spring boot actuator configurations
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info, metrics
+        
+springdoc.packagesToScan: com.products.demo
+springdoc.pathsToMatch: /**
+# Configure Logging
+logging:
+  level:
+    root: INFO
+    com.toomuch2learn: DEBUG
+    org.springframework: INFO
+    org.apache.catalina: ERROR
+
+# Display auto-configuration report when running a Spring Boot application
+#debug: true
+
+# Configure Spring specific properties
+spring:
+
+  # Enable/Disable hot swapping
+  devtools:
+    restart:
+      enabled: true
+      log-condition-evaluation-delta: false
+
+  # Properties for configuring jackson mapper
+  jackson:
+    mapper:
+      # For enums, consider case insensitive when parsing to json object
+      accept-case-insensitive-enums: true
+    #serialization:
+    #  write-dates-as-timestamps: false
+
+  resources:
+    add-mappings: false
+
+  # Datasource Configurations
+  h2:
+    console:
+      enabled: true
+      path: /h2
+
+  # R2DBC Configuration
+  r2dbc:
+    url: r2dbc:h2:mem:///cataloguedb
+    username: sa
+    password:
+    initialization-mode: always
+
+# Custom Configurations
+file:
+  upload-location: /tmp
+  
+  spring:
+  devtools:
+    restart:
+      exclude: static/**,public/**
