@@ -55,7 +55,7 @@ This guide shows the functional way of using Spring WebFlux. You can also
 response, as shown in the following example:</p>
 </div>
 <div>
-<p><code>src/main/java/com/products/demo/handler/Producthandler.java</code></p>
+<p><code>src/main/java/com/products/demo/handler/ProductHandler.java</code></p>
 </div>
 <div>
 <div>
@@ -133,6 +133,8 @@ we also created a test class to get you started on testing with the WebTestClien
 <tr><td>Versioned API</td><td> GET</td><td> /products/version - Add header API-Version=1.0.0 or 1.0.1</td></tr>
 </table>
     </div>
+    <h4>Building docker image</h4>
+    spring-boot:docker-image
 <div>
 </div>
 </div>
